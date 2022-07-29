@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: rgba(102, 51, 153, 0.686);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.inputGroup {
+    padding: 40px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    caret-color: rebeccapurple;
+}
+
+input:focus,
+input:active {
+    border: 2px solid rebeccapurple;
+}
+
+button {
+  background-color: rebeccapurple;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.title {
+    color: white;
+    font-weight: 400;
+    margin-left: 12rem;
+    padding-top: 3rem;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+.notes {
+  margin: 50px;
+  margin-top: 10px;
+  display: flex;
+  margin-left: 150px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  margin: 20px;
+  height: 200px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  flex-grow: 0;
+  width: 20%;
+}
+
+.card-header {
+  background-color: rebeccapurple;
+  height: 50px;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h3 {
+  font-weight: 400;
+}
+
+#del {
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 20px;
+  overflow: auto;
+  word-wrap: break-word;
+  height: 150px;
+}
